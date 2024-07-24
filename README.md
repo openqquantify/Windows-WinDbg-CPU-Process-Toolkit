@@ -1,7 +1,6 @@
 # 🛠️ Windows WinDbg CPU Process Toolkit 🛠️
 
-![WinDbg Toolkit](
-![image](https://github.com/user-attachments/assets/00c8f531-a894-4cf4-922c-298a4724f11a)
+![WinDbg Toolkit](https://github.com/user-attachments/assets/00c8f531-a894-4cf4-922c-298a4724f11a)
 
 
 ## Overview
