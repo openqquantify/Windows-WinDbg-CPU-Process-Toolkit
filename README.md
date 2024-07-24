@@ -93,6 +93,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Feel free to contact us if you have any questions or need further assistance. Let's make debugging and process analysis easier and more efficient!
 
-![GitHub](https://img.shields.io/github/license/YourUsername/Windows-WinDbg-CPU-Process-Toolkit)
-![Stars](https://img.shields.io/github/stars/YourUsername/Windows-WinDbg-CPU-Process-Toolkit)
-![Issues](https://img.shields.io/github/issues/YourUsername/Windows-WinDbg-CPU-Process-Toolkit)
+### Disclosure
+This toolkit utilizes Microsoft WinDbg and the Windows SDK.
