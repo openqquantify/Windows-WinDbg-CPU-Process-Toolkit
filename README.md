@@ -13,6 +13,8 @@ The **Windows WinDbg CPU Process Toolkit** is a comprehensive solution designed 
 - 🧠 **Memory and Module Capture**: Read process memory and capture loaded modules, saving the information to transcribed and readable files.
 - 🖥️ **Graphical User Interface (GUI)**: User-friendly GUI with start and stop scanning controls for easy operation.
 - 🔐 **Administrator Privileges Handling**: Ensure the application runs with the necessary administrative privileges for process analysis.
+It essentially analyzes all the running processes it possibly can by leveraging the Windows SDK and collects the data, then performs analysis and machine learning classification. Here is an image of the dissasemble code it can collect and save.
+![Dissasemble Code](https://github.com/user-attachments/assets/caf3ec33-8b55-4654-8229-dd735f02fcf9)
 
 ## Installation 🛠️
 1. **Clone the Repository**:
