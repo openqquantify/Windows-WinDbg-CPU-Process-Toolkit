@@ -2,7 +2,7 @@
 
 ![WinDbg Toolkit](https://github.com/user-attachments/assets/aaeef17a-4814-4bc0-9da9-f0ea56171337)
 
-##Disclosure
+## Disclosure
 This Open Source Project is still under development. The team at OpenQQuantify is going to updating this repo, consistently. You can do everything that is currently illustrated below on this repo. 
 
 
