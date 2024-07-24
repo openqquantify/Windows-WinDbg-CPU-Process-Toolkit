@@ -56,6 +56,15 @@ The **Windows WinDbg CPU Process Toolkit** is a comprehensive solution designed 
 # Windows WinDbg CPU Process Toolkit
 
 This toolkit analyzes all the running processes by leveraging the Windows SDK and collects data for analysis and machine learning classification.
+### Prerequisites
+
+1. **Install WinDbg through the Windows SDK**:
+   - Download and install the [Windows 10 SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/).
+   - During the installation, ensure you select the Debugging Tools for Windows option. This will install WinDbg.
+   - Make sure to understand where the path to installation is and update code if you want to compile it from scratch.
+     
+2. **Install `gcc`**:
+   - Ensure you have `gcc` installed on your system. If not, you can download and install it from [MinGW](http://www.mingw.org/) or your preferred package manager.
 
 ## Installation 🛠️
 Make sure to run as Administrator if it is giving you compile or run-time issues.
