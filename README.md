@@ -47,17 +47,9 @@ The **Windows WinDbg CPU Process Toolkit** is a comprehensive solution designed 
 | 25                 | Heap Summary                    | Displays a summary of heap statistics.                                                       |
 | 26                 | Memory Information (Full)       | Displays detailed memory usage information (unsupported for the target machine).             |
 | 27                 | Quitting                        | Indicates the end of the script execution and the exit from the debugger.                    |
-## Windows WinDbg CPU Process Toolkit
+### Example "21. Loaded Drivers"
+![image](https://github.com/user-attachments/assets/a2c18ca6-d35d-4d10-8165-e8c150dc972a)
 
-It essentially analyzes all the running processes it possibly can by leveraging the Windows SDK and collects the data, then performs analysis and machine learning classification.
-
-### Disassemble Code
-Here is an image of the disassemble code it can collect and save:
-<img src="https://github.com/user-attachments/assets/caf3ec33-8b55-4654-8229-dd735f02fcf9" alt="Disassemble Code" style="width: 45%; display: inline-block; margin-right: 10px;">
-
-### Loaded Drivers
-Here is an image of the loaded drivers:
-<img src="https://github.com/user-attachments/assets/7d43ab36-a32c-4a39-8395-d9d4b43e9683" alt="Loaded Drivers" style="width: 45%; display: inline-block;">
 
 
 ## Installation 🛠️
