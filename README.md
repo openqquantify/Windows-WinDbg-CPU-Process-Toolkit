@@ -53,7 +53,12 @@ The **Windows WinDbg CPU Process Toolkit** is a comprehensive solution designed 
 
 
 
+# Windows WinDbg CPU Process Toolkit
+
+This toolkit analyzes all the running processes by leveraging the Windows SDK and collects data for analysis and machine learning classification.
+
 ## Installation 🛠️
+
 1. **Clone the Repository**:
     ```sh
     git clone https://github.com/YourUsername/Windows-WinDbg-CPU-Process-Toolkit.git
@@ -64,13 +69,21 @@ The **Windows WinDbg CPU Process Toolkit** is a comprehensive solution designed 
     Use `gcc` to compile the source code:
     ```sh
     gcc -o Locate_Code.exe Locate_Code.c -lgdi32 -lgdiplus -lpsapi -lshlwapi -ladvapi32 -lcomctl32
+    gcc -o Process_Analyzer.exe Process_Analyzer.c -lgdi32 -lgdiplus -lpsapi -lshlwapi -ladvapi32 -lcomctl32
     ```
 
 3. **Run the Application**:
-    Execute the compiled application:
+    Execute the compiled application using the provided batch file:
     ```sh
-    Locate_Code.exe
+    Run_Applications.bat
     ```
+
+## Batch File: `Run_Applications.bat`
+This batch file automates the process of running the compiled applications and keeps the windows on top using a PowerShell script.
+
+## Powershell Script: 'Process_Analyzer_FOREGROUND.ps1'
+This powershell file is designed to keep machine source code at the front in order for our toolkit to analyze the information.
+
 
 ## Usage 💻
 - **Start Scanning**: Click the "Start Scanning" button in the GUI to begin the process scanning and data extraction.
