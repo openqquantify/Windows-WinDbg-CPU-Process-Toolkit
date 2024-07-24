@@ -13,8 +13,95 @@ The **Windows WinDbg CPU Process Toolkit** is a comprehensive solution designed 
 - 🧠 **Memory and Module Capture**: Read process memory and capture loaded modules, saving the information to transcribed and readable files.
 - 🖥️ **Graphical User Interface (GUI)**: User-friendly GUI with start and stop scanning controls for easy operation.
 - 🔐 **Administrator Privileges Handling**: Ensure the application runs with the necessary administrative privileges for process analysis.
-It essentially analyzes all the running processes it possibly can by leveraging the Windows SDK and collects the data, then performs analysis and machine learning classification. Here is an image of the dissasemble code it can collect and save.
+
+# ToolKit Explaination
+- It essentially analyzes all the running processes it possibly can by leveraging the Windows SDK and collects the data, then performs analysis and machine learning classification.
+- Here is an image of the dissasemble code it can collect and save.
 ![Dissasemble Code](https://github.com/user-attachments/assets/caf3ec33-8b55-4654-8229-dd735f02fcf9)
+- Here is an image of the Loaded Drivers:
+![image](https://github.com/user-attachments/assets/7d43ab36-a32c-4a39-8395-d9d4b43e9683)
+## Captured Information Sections
+### 1. Preparing the Environment
+Initializes and configures the environment for Debugger Extensions Gallery repositories.
+
+### 2. Path Validation Summary
+Validates the symbol and executable search paths.
+
+### 3. Module Loading
+Logs the loading of modules into memory.
+
+### 4. Initial Command Processing
+Executes initial debugger commands.
+
+### 5. Processor Information
+Attempts to display CPU information (unsupported for the target machine).
+
+### 6. System Information
+Displays general system information including OS version, build, uptime, and processor details.
+
+### 7. Register States
+Displays the state of CPU registers.
+
+### 8. Disassemble Code
+Disassembles and displays code around the instruction pointer for both 32-bit and 64-bit modes.
+
+### 9. Memory Information
+Summarizes memory usage, mapping various memory regions.
+
+### 10. Virtual Memory Layout
+Displays the virtual memory layout (unsupported for the target machine).
+
+### 11. Loaded Modules
+Lists loaded modules with their memory addresses and names.
+
+### 12. Dump Memory Contents
+Dumps the contents of memory at specific addresses for both 32-bit and 64-bit modes.
+
+### 13. List Threads
+Lists all threads within the process with details such as start address, priority, and affinity.
+
+### 14. Stack Traces
+Displays stack traces for each thread.
+
+### 15. Kernel Structures
+Displays active process information and other kernel structures (symbols not available).
+
+### 16. Handle Table
+Displays a summary of handles opened by the process, categorized by type.
+
+### 17. Object Information
+Displays information about kernel objects (unsupported for the target machine).
+
+### 18. Page Table Entries
+Displays page table entries (unsupported for the target machine).
+
+### 19. Kernel Memory Information
+Displays a summary of kernel memory usage (unsupported for the target machine).
+
+### 20. Kernel Debugging Structures
+Displays kernel debugging structures (unsupported for the target machine).
+
+### 21. Loaded Drivers
+Lists loaded drivers with their memory addresses and names.
+
+### 22. Dump Driver Object
+Attempts to dump information about driver objects (symbols not available).
+
+### 23. Loaded Images
+Attempts to list loaded images (command not supported).
+
+### 24. Loaded Paged Pools
+Displays usage statistics for paged pool memory.
+
+### 25. Heap Summary
+Displays a summary of heap statistics.
+
+### 26. Memory Information (Full)
+Displays detailed memory usage information (unsupported for the target machine).
+
+### 27. Quitting
+Indicates the end of the script execution and the exit from the debugger.
+ 
 
 ## Installation 🛠️
 1. **Clone the Repository**:
