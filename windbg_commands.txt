@@ -1,0 +1,55 @@
+.echo === Processor Information ===
+!cpuinfo
+.echo === System Information ===
+vertarget
+.echo === Register States ===
+r
+.echo === Disassemble Code (EIP) for 32-bit ===
+u eip
+.echo === Disassemble Code (RIP) for 64-bit ===
+u rip
+.echo === Memory Information ===
+!address -summary
+.echo === Virtual Memory Layout ===
+!vm
+.echo === Loaded Modules ===
+lm
+.echo === Dump Memory Contents (EIP) for 32-bit ===
+dd eip
+.echo === Dump Memory Contents (RIP) for 64-bit ===
+dd rip
+.echo === List Threads ===
+~*
+.echo === Thread Information ===
+!thread
+.echo === Stack Traces ===
+kp
+.echo === Kernel Structures ===
+!process 0 0
+!session
+.echo === Handle Table ===
+!handle 0 0
+.echo === Object Information ===
+!object
+.echo === Page Table Entries ===
+!pte
+.echo === Kernel Memory Information ===
+!memusage
+.echo === Kernel Debugging Structures ===
+!kd
+.echo === Kernel Modules ===
+!lm
+.echo === Loaded Drivers ===
+lm t n
+.echo === Dump Driver Object ===
+!object \Driver\
+.echo === Loaded Images ===
+!imgscan
+.echo === Loaded Paged Pools ===
+!poolused /t
+.echo === Heap Summary ===
+!heap -s
+.echo === Memory Information (Full) ===
+!memusage 7
+.echo === Quitting ===
+.quit
