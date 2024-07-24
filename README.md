@@ -58,7 +58,7 @@ The **Windows WinDbg CPU Process Toolkit** is a comprehensive solution designed 
 This toolkit analyzes all the running processes by leveraging the Windows SDK and collects data for analysis and machine learning classification.
 
 ## Installation 🛠️
-
+Make sure to run as Administrator if it is giving you compile or run-time issues.
 1. **Clone the Repository**:
     ```sh
     git clone https://github.com/YourUsername/Windows-WinDbg-CPU-Process-Toolkit.git
@@ -78,10 +78,11 @@ This toolkit analyzes all the running processes by leveraging the Windows SDK an
     Run_Applications.bat
     ```
 
+
 ## Batch File: `Run_Applications.bat`
 This batch file automates the process of running the compiled applications and keeps the windows on top using a PowerShell script.
 
-## Powershell Script: 'Process_Analyzer_FOREGROUND.ps1'
+## Powershell Script: `Process_Analyzer_FOREGROUND.ps1`
 This powershell file is designed to keep machine source code at the front in order for our toolkit to analyze the information.
 
 
